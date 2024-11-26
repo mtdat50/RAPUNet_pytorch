@@ -34,7 +34,7 @@ def pass_epoch(model, train_loader, val_loader, optimizer, weight_decay_schedule
         total_loss += batch_loss.item()
         print(f"Training ({batch_count + 1}/{len(train_loader)}): Loss {total_loss / (batch_count + 1)}| Weight decay: {weight_decay}" + ' '*50, end='\r')
     print('')
-    with open("/kaggle/working/log.txt", "a") as f:
+    with open("/kaggle/working/train_log.txt", "a") as f:
         f.write(f"Training: Loss {total_loss / len(train_loader)}| Weight decay: {weight_decay}\n")
 
     model.eval()
@@ -50,7 +50,7 @@ def pass_epoch(model, train_loader, val_loader, optimizer, weight_decay_schedule
         total_loss += batch_loss.item()
         print(f"Validating ({batch_count + 1}/{len(val_loader)}): Loss {total_loss / (batch_count + 1)}" + ' '*50, end='\r')
     print('\n')
-    with open("/kaggle/working/log.txt", "a") as f:
+    with open("/kaggle/working/train_log.txt", "a") as f:
         f.write(f"Validating: Loss {total_loss / len(val_loader)}\n\n")
     return total_loss / len(val_loader)
 
@@ -64,6 +64,10 @@ aug_train = albu.Compose([
     ToTensorV2()  # Ensure output is a PyTorch tensor
 ])
 
+aug_val = albu.Compose([
+    albu.Resize(384, 384, interpolation=cv2.INTER_LANCZOS4, always_apply=True),
+    ToTensorV2()  # Ensure output is a PyTorch tensor
+])
 
 if __name__ == "__main__":
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
@@ -80,7 +84,7 @@ if __name__ == "__main__":
     x_train, x_valid, y_train, y_valid = train_test_split(X, Y, test_size=0.1, shuffle= True, random_state = seed_value)
 
     train_set = FolderDataset(x_train, y_train, transform=aug_train)
-    val_set = FolderDataset(x_valid, y_valid, transform=aug_train)
+    val_set = FolderDataset(x_valid, y_valid, transform=aug_val)
     
     train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=4)
     val_loader = DataLoader(val_set, batch_size=batch_size, num_workers=4)
@@ -106,7 +110,7 @@ if __name__ == "__main__":
     for epoch in range(epochs):
         logstr = f"Epoch {epoch + 1}/{epochs}\nLr: {lr_scheduler.get_last_lr()}\n"
         print(logstr, end='')
-        with open("/kaggle/working/log.txt", "a") as f:
+        with open("/kaggle/working/train_log.txt", "a") as f:
             f.write(logstr)
 
         val_loss = pass_epoch(model, train_loader, val_loader, optimizer, weight_decay_scheduler, loss_fn, device)
