@@ -2,7 +2,7 @@ import timm
 import torch
 from torch import nn
 import torch.nn.functional as F
-from RAPU_blocks import ResnetBlock, RAPUBlock, Convf_bn_act, SBA, same_padding
+from .RAPU_blocks import ResnetBlock, RAPUBlock, Convf_bn_act, SBA, same_padding
 
 kernel_initializer = 'he_uniform'
 interpolation = "nearest"
