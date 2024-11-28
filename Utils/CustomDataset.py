@@ -9,14 +9,14 @@ from torch.utils.data import Dataset
 def glob_paths(data_folder):
     """
     Args:
-        data_folder: Path to the folder containing image/ and masks/.
+        data_folder: Path to the folder containing images/ and masks/.
 
     Returns:
         image_paths, mask_paths.
     """
-    path_parts = [data_folder, "image", "*"]
+    path_parts = [data_folder, "images", "*"]
     image_path = os.path.join(*path_parts)
-    mask_path = image_path.replace("image", "masks")
+    mask_path = image_path.replace("images", "masks")
 
     return sorted(glob(image_path)), sorted(glob(mask_path))
 

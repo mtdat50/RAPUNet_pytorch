@@ -8,7 +8,7 @@ kernel_initializer = 'he_uniform'
 interpolation = "nearest"
 
 class RAPUNet(nn.Module):
-    def __init__(self, in_channels, out_classes, starting_kernels):
+    def __init__(self, in_channels, out_classes, starting_kernels = 16):
         super().__init__()
         self.backbone = timm.create_model('caformer_s18.sail_in22k_ft_in1k_384', pretraned=True, features_only=True)
 
