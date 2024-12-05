@@ -1,5 +1,6 @@
 import cv2
 import torch
+import torch.nn.functional as F
 import torch.optim as optim
 import albumentations as albu
 from albumentations.pytorch import ToTensorV2
@@ -22,9 +23,16 @@ def pass_epoch(model, train_loader, val_loader, optimizer, weight_decay_schedule
 
         batch_input = batch_input.to(device)
         batch_gt = batch_gt.to(device)
+        batch_gt = batch_gt.unsqueeze(1)
 
-        batch_pred = model(batch_input)
-        batch_loss = loss_fn(batch_pred, batch_gt)
+        batch_pred, batch_pred1, batch_pred2 = model(batch_input, deep_supervision=True)
+        batch_gt1 = F.interpolate(batch_gt, scale_factor=0.25, mode='nearest')
+        batch_gt2 = F.interpolate(batch_gt, scale_factor=0.125, mode='nearest')
+
+        batch_loss0 = loss_fn(batch_pred, batch_gt)
+        batch_loss1 = loss_fn(batch_pred1, batch_gt1)
+        batch_loss2 = loss_fn(batch_pred2, batch_gt2)
+        batch_loss = 0.6*batch_loss0 + 0.3*batch_loss1 + 0.1*batch_loss2
 
         optimizer.zero_grad()
         batch_loss.backward()

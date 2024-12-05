@@ -131,9 +131,10 @@ class Convf_bn_act(nn.Module):
 
 
 class SBA(nn.Module):
-    def __init__(self, L_in_channels, H_in_channels):
+    def __init__(self, L_in_channels, H_in_channels, return_feature = False):
         super().__init__()
         kernels = 16
+        self.return_feature = return_feature
 
         self.L_conv1 = nn.Conv2d(L_in_channels, kernels, kernel_size=1, bias=False)
         self.H_conv1 = nn.Conv2d(H_in_channels, kernels, kernel_size=1, bias=False)
@@ -161,9 +162,11 @@ class SBA(nn.Module):
         H_feature = H_input + H_input * g_H + (1 - g_H) * H_resized
 
         H_feature = F.interpolate(H_feature, scale_factor=2, mode='nearest')
-        out = torch.cat([L_feature, H_feature], dim=1)  # Concatenate along channel dimension
+        combined_feature = torch.cat([L_feature, H_feature], dim=1)  # Concatenate along channel dimension
 
-        out = self.final_conv_block(out)
-        out = self.output_conv(out)
-
+        combined_feature = self.final_conv_block(combined_feature)
+        out = self.output_conv(combined_feature)
+        
+        if self.return_feature:
+            return out, combined_feature
         return out

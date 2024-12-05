@@ -1,0 +1,1068 @@
+Epoch 1/300
+Lr: [0.0001]
+Epoch 1/300
+Lr: [0.0001]
+Training: Loss 0.8198754221517989| Weight decay: 9.806667654349697e-05
+Validating: Loss 0.76182852008126
+
+Epoch 2/300
+Lr: [0.0001]
+Training: Loss 2.0916621323595654| Weight decay: 9.594406372332081e-05
+Validating: Loss 0.7528038675134833
+
+Epoch 3/300
+Lr: [0.0001]
+Epoch 1/300
+Lr: [0.0001]
+Training: Loss 0.7481379883086428| Weight decay: 9.806667654349697e-05
+Validating: Loss 0.7103434963659807
+
+Epoch 2/300
+Lr: [0.0001]
+Training: Loss 0.7022481173910993| Weight decay: 9.594406372332081e-05
+Validating: Loss 0.6934387846426531
+
+Epoch 3/300
+Lr: [0.0001]
+Training: Loss 0.6817131181980701| Weight decay: 9.36150725218607e-05
+Validating: Loss 0.6661941409111023
+
+Epoch 4/300
+Lr: [0.0001]
+Training: Loss 0.6626609950623614| Weight decay: 9.1028210151304e-05
+Validating: Loss 0.6400557268749584
+
+Epoch 5/300
+Lr: [0.0001]
+Training: Loss 0.6463376045861142| Weight decay: 8.81087224637279e-05
+Validating: Loss 0.6416716846552762
+
+Epoch 6/300
+Lr: [0.0001]
+Training: Loss 0.6306658380843223| Weight decay: 8.474152736857271e-05
+Validating: Loss 0.640705943107605
+
+Epoch 7/300
+Lr: [0.0001]
+Training: Loss 0.6141978784444484| Weight decay: 8.073443754472967e-05
+Validating: Loss 0.6360205032608726
+
+Epoch 8/300
+Lr: [0.0001]
+Training: Loss 0.5964721907326516| Weight decay: 7.572510242353128e-05
+Validating: Loss 0.5667613365433433
+
+Epoch 9/300
+Lr: [0.0001]
+Training: Loss 0.5817182584011809| Weight decay: 6.887574978438626e-05
+Validating: Loss 0.5364298278635199
+
+Epoch 10/300
+Lr: [0.0001]
+Training: Loss 0.5583394537580774| Weight decay: 5.715654478041502e-05
+Validating: Loss 0.5241527936675332
+
+Epoch 11/300
+Lr: [0.0001]
+Training: Loss 0.5375667170007178| Weight decay: 1e-06
+Validating: Loss 0.5628118677572771
+
+Epoch 12/300
+Lr: [0.0001]
+Training: Loss 0.5131076723337173| Weight decay: 1e-06
+Validating: Loss 0.44027119874954224
+
+Epoch 13/300
+Lr: [0.0001]
+Training: Loss 0.49322963299903466| Weight decay: 1e-06
+Validating: Loss 0.3756229443983598
+
+Epoch 14/300
+Lr: [0.0001]
+Training: Loss 0.46745274200084364| Weight decay: 1e-06
+Validating: Loss 0.3989256024360657
+
+Epoch 15/300
+Lr: [0.0001]
+Training: Loss 0.46696330099663835| Weight decay: 1e-06
+Validating: Loss 0.5122061751105569
+
+Epoch 16/300
+Lr: [0.0001]
+Training: Loss 0.4339589682665277| Weight decay: 1e-06
+Validating: Loss 0.40827366980639374
+
+Epoch 17/300
+Lr: [0.0001]
+Training: Loss 0.4220008174789713| Weight decay: 1e-06
+Validating: Loss 0.2918891635808078
+
+Epoch 18/300
+Lr: [0.0001]
+Training: Loss 0.4050831614022559| Weight decay: 1e-06
+Validating: Loss 0.2933558334003795
+
+Epoch 19/300
+Lr: [0.0001]
+Training: Loss 0.3931706557248501| Weight decay: 1e-06
+Validating: Loss 0.3417058532888239
+
+Epoch 20/300
+Lr: [0.0001]
+Training: Loss 0.3944211418324329| Weight decay: 1e-06
+Validating: Loss 0.3033651059324091
+
+Epoch 21/300
+Lr: [0.0001]
+Training: Loss 0.36161621850221715| Weight decay: 1e-06
+Validating: Loss 0.3121722394769842
+
+Epoch 22/300
+Lr: [0.0001]
+Training: Loss 0.3463002638296878| Weight decay: 1e-06
+Validating: Loss 0.26190339435230603
+
+Epoch 23/300
+Lr: [0.0001]
+Training: Loss 0.3344430057926381| Weight decay: 1e-06
+Validating: Loss 0.3575372262434526
+
+Epoch 24/300
+Lr: [0.0001]
+Training: Loss 0.32152442221945904| Weight decay: 1e-06
+Validating: Loss 0.243854127146981
+
+Epoch 25/300
+Lr: [0.0001]
+Training: Loss 0.31344281993013745| Weight decay: 1e-06
+Validating: Loss 0.27044497294859454
+
+Epoch 26/300
+Lr: [0.0001]
+Training: Loss 0.3082014065473638| Weight decay: 1e-06
+Validating: Loss 0.2393772927197543
+
+Epoch 27/300
+Lr: [0.0001]
+Training: Loss 0.3155345025848835| Weight decay: 1e-06
+Validating: Loss 0.2547121914950284
+
+Epoch 28/300
+Lr: [0.0001]
+Training: Loss 0.30035783445581477| Weight decay: 1e-06
+Validating: Loss 0.23965935273603958
+
+Epoch 29/300
+Lr: [0.0001]
+Training: Loss 0.30548029281991596| Weight decay: 1e-06
+Validating: Loss 0.23257037726315585
+
+Epoch 30/300
+Lr: [0.0001]
+Training: Loss 0.2968891703702034| Weight decay: 1e-06
+Validating: Loss 0.21794196150519632
+
+Epoch 31/300
+Lr: [0.0001]
+Training: Loss 0.280000701863715| Weight decay: 1e-06
+Validating: Loss 0.21241509914398193
+
+Epoch 32/300
+Lr: [0.0001]
+Training: Loss 0.27245044296092175| Weight decay: 1e-06
+Validating: Loss 0.20241102305325595
+
+Epoch 33/300
+Lr: [0.0001]
+Training: Loss 0.25873089676841776| Weight decay: 1e-06
+Validating: Loss 0.1982481913133101
+
+Epoch 34/300
+Lr: [0.0001]
+Training: Loss 0.26749884638380494| Weight decay: 1e-06
+Validating: Loss 0.19768092849037863
+
+Epoch 35/300
+Lr: [0.0001]
+Training: Loss 0.25901854783296585| Weight decay: 1e-06
+Validating: Loss 0.2219314304265109
+
+Epoch 36/300
+Lr: [0.0001]
+Training: Loss 0.2576106364264133| Weight decay: 1e-06
+Validating: Loss 0.19852269237691705
+
+Epoch 37/300
+Lr: [0.0001]
+Training: Loss 0.2576791025856708| Weight decay: 1e-06
+Validating: Loss 0.2034329338507219
+
+Epoch 38/300
+Lr: [0.0001]
+Training: Loss 0.24738365728804407| Weight decay: 1e-06
+Validating: Loss 0.20831551876935092
+
+Epoch 39/300
+Lr: [0.0001]
+Training: Loss 0.25033876640682523| Weight decay: 1e-06
+Validating: Loss 0.20108544284647162
+
+Epoch 40/300
+Lr: [0.0001]
+Training: Loss 0.24667271932071827| Weight decay: 1e-06
+Validating: Loss 0.19650769233703613
+
+Epoch 41/300
+Lr: [0.0001]
+Training: Loss 0.24489626946284415| Weight decay: 1e-06
+Validating: Loss 0.2129130634394559
+
+Epoch 42/300
+Lr: [0.0001]
+Training: Loss 0.23159205271525585| Weight decay: 1e-06
+Validating: Loss 0.18649636073545975
+
+Epoch 43/300
+Lr: [0.0001]
+Training: Loss 0.2419409526789442| Weight decay: 1e-06
+Validating: Loss 0.22310262376611883
+
+Epoch 44/300
+Lr: [0.0001]
+Training: Loss 0.25326166476341005| Weight decay: 1e-06
+Validating: Loss 0.17888585003939542
+
+Epoch 45/300
+Lr: [0.0001]
+Training: Loss 0.2479543074014339| Weight decay: 1e-06
+Validating: Loss 0.1965693235397339
+
+Epoch 46/300
+Lr: [0.0001]
+Training: Loss 0.23734400659165483| Weight decay: 1e-06
+Validating: Loss 0.19181531125848944
+
+Epoch 47/300
+Lr: [0.0001]
+Training: Loss 0.2286999746364482| Weight decay: 1e-06
+Validating: Loss 0.18801816485144876
+
+Epoch 48/300
+Lr: [0.0001]
+Training: Loss 0.2317863719418962| Weight decay: 1e-06
+Validating: Loss 0.18237298185175116
+
+Epoch 49/300
+Lr: [0.0001]
+Training: Loss 0.23764413452528893| Weight decay: 1e-06
+Validating: Loss 0.19898748397827148
+
+Epoch 50/300
+Lr: [0.0001]
+Training: Loss 0.22730501590574043| Weight decay: 1e-06
+Validating: Loss 0.18348066373304886
+
+Epoch 51/300
+Lr: [0.0001]
+Training: Loss 0.2306574022674814| Weight decay: 1e-06
+Validating: Loss 0.190609872341156
+
+Epoch 52/300
+Lr: [0.0001]
+Training: Loss 0.2289137823626082| Weight decay: 1e-06
+Validating: Loss 0.1867902766574513
+
+Epoch 53/300
+Lr: [0.0001]
+Training: Loss 0.22627167435402565| Weight decay: 1e-06
+Validating: Loss 0.17081216790459372
+
+Epoch 54/300
+Lr: [0.0001]
+Training: Loss 0.21552943152950166| Weight decay: 1e-06
+Validating: Loss 0.19021399996497415
+
+Epoch 55/300
+Lr: [0.0001]
+Training: Loss 0.22056951183587947| Weight decay: 1e-06
+Validating: Loss 0.1832665205001831
+
+Epoch 56/300
+Lr: [0.0001]
+Training: Loss 0.20943055175086286| Weight decay: 1e-06
+Validating: Loss 0.2078907327218489
+
+Epoch 57/300
+Lr: [0.0001]
+Training: Loss 0.22731287460377875| Weight decay: 1e-06
+Validating: Loss 0.17140615528280084
+
+Epoch 58/300
+Lr: [0.0001]
+Training: Loss 0.21812403099016942| Weight decay: 1e-06
+Validating: Loss 0.16453988443721423
+
+Epoch 59/300
+Lr: [0.0001]
+Training: Loss 0.2274505375547612| Weight decay: 1e-06
+Validating: Loss 0.18023646961558948
+
+Epoch 60/300
+Lr: [0.0001]
+Training: Loss 0.22516643969302483| Weight decay: 1e-06
+Validating: Loss 0.17698734456842596
+
+Epoch 61/300
+Lr: [0.0001]
+Training: Loss 0.22703916088063666| Weight decay: 1e-06
+Validating: Loss 0.17956629666415128
+
+Epoch 62/300
+Lr: [0.0001]
+Training: Loss 0.21878407871786584| Weight decay: 1e-06
+Validating: Loss 0.17534070665186102
+
+Epoch 63/300
+Lr: [0.0001]
+Training: Loss 0.21182635537487396| Weight decay: 1e-06
+Validating: Loss 0.15965099226344714
+
+Epoch 64/300
+Lr: [0.0001]
+Training: Loss 0.21330648565545995| Weight decay: 1e-06
+Validating: Loss 0.15489434112202038
+
+Epoch 65/300
+Lr: [0.0001]
+Training: Loss 0.20138251607088334| Weight decay: 1e-06
+Validating: Loss 0.18491657213731247
+
+Epoch 66/300
+Lr: [0.0001]
+Training: Loss 0.217877069765583| Weight decay: 1e-06
+Validating: Loss 0.1605304479598999
+
+Epoch 67/300
+Lr: [0.0001]
+Training: Loss 0.21291431895595916| Weight decay: 1e-06
+Validating: Loss 0.1666917855089361
+
+Epoch 68/300
+Lr: [0.0001]
+Training: Loss 0.203348974281169| Weight decay: 1e-06
+Validating: Loss 0.15694543448361484
+
+Epoch 69/300
+Lr: [0.0001]
+Training: Loss 0.20344433434149053| Weight decay: 1e-06
+Validating: Loss 0.1749080473726446
+
+Epoch 70/300
+Lr: [0.0001]
+Training: Loss 0.2005205512680906| Weight decay: 1e-06
+Validating: Loss 0.15774451060728592
+
+Epoch 71/300
+Lr: [0.0001]
+Training: Loss 0.19533114428532886| Weight decay: 1e-06
+Validating: Loss 0.1624945564703508
+
+Epoch 72/300
+Lr: [0.0001]
+Training: Loss 0.20802221122257253| Weight decay: 1e-06
+Validating: Loss 0.1501056118444963
+
+Epoch 73/300
+Lr: [0.0001]
+Training: Loss 0.20270478297421274| Weight decay: 1e-06
+Validating: Loss 0.15376394445245917
+
+Epoch 74/300
+Lr: [0.0001]
+Training: Loss 0.19523447688589704| Weight decay: 1e-06
+Validating: Loss 0.1485877362164584
+
+Epoch 75/300
+Lr: [0.0001]
+Training: Loss 0.20035483093654854| Weight decay: 1e-06
+Validating: Loss 0.1493870886889371
+
+Epoch 76/300
+Lr: [0.0001]
+Training: Loss 0.20177913163887692| Weight decay: 1e-06
+Validating: Loss 0.16078901290893555
+
+Epoch 77/300
+Lr: [0.0001]
+Training: Loss 0.19769447249300937| Weight decay: 1e-06
+Validating: Loss 0.18263963135805997
+
+Epoch 78/300
+Lr: [0.0001]
+Training: Loss 0.18806959161574535| Weight decay: 1e-06
+Validating: Loss 0.15882834521206943
+
+Epoch 79/300
+Lr: [0.0001]
+Training: Loss 0.2089020307869353| Weight decay: 1e-06
+Validating: Loss 0.1680148406462236
+
+Epoch 80/300
+Lr: [0.0001]
+Training: Loss 0.19698666789113206| Weight decay: 1e-06
+Validating: Loss 0.17878691174767233
+
+Epoch 81/300
+Lr: [0.0001]
+Training: Loss 0.19637018505563128| Weight decay: 1e-06
+Validating: Loss 0.16658018393950028
+
+Epoch 82/300
+Lr: [0.0001]
+Training: Loss 0.19092953205108643| Weight decay: 1e-06
+Validating: Loss 0.15473553809252652
+
+Epoch 83/300
+Lr: [0.0001]
+Training: Loss 0.18398151673535082| Weight decay: 1e-06
+Validating: Loss 0.17628264969045465
+
+Epoch 84/300
+Lr: [0.0001]
+Training: Loss 0.176898182389584| Weight decay: 1e-06
+Validating: Loss 0.17199831659143622
+
+Epoch 85/300
+Lr: [0.0001]
+Training: Loss 0.19468658346127957| Weight decay: 1e-06
+Validating: Loss 0.16273440014232288
+
+Epoch 86/300
+Lr: [2e-05]
+Training: Loss 0.18051740860051296| Weight decay: 1e-06
+Validating: Loss 0.1588818593458696
+
+Epoch 87/300
+Lr: [2e-05]
+Training: Loss 0.18076221105900217| Weight decay: 1e-06
+Validating: Loss 0.1520581299608404
+
+Epoch 88/300
+Lr: [2e-05]
+Training: Loss 0.16952325078718206| Weight decay: 1e-06
+Validating: Loss 0.1488431908867576
+
+Epoch 89/300
+Lr: [2e-05]
+Training: Loss 0.1684757483766434| Weight decay: 1e-06
+Validating: Loss 0.1466961448842829
+
+Epoch 90/300
+Lr: [2e-05]
+Training: Loss 0.16884272601059142| Weight decay: 1e-06
+Validating: Loss 0.14532987096092917
+
+Epoch 91/300
+Lr: [2e-05]
+Training: Loss 0.16875557704491817| Weight decay: 1e-06
+Validating: Loss 0.14077203382145276
+
+Epoch 92/300
+Lr: [2e-05]
+Training: Loss 0.15537661924324137| Weight decay: 1e-06
+Validating: Loss 0.13423604314977472
+
+Epoch 93/300
+Lr: [2e-05]
+Training: Loss 0.16590745449858776| Weight decay: 1e-06
+Validating: Loss 0.1317917542024092
+
+Epoch 94/300
+Lr: [2e-05]
+Training: Loss 0.1619461124881785| Weight decay: 1e-06
+Validating: Loss 0.13711705532940952
+
+Epoch 95/300
+Lr: [2e-05]
+Training: Loss 0.16113094494063804| Weight decay: 1e-06
+Validating: Loss 0.13924775340340353
+
+Epoch 96/300
+Lr: [2e-05]
+Training: Loss 0.16081234622508922| Weight decay: 1e-06
+Validating: Loss 0.1377615820277821
+
+Epoch 97/300
+Lr: [2e-05]
+Training: Loss 0.1597496305215866| Weight decay: 1e-06
+Validating: Loss 0.1339910084551031
+
+Epoch 98/300
+Lr: [2e-05]
+Training: Loss 0.15972803651969483| Weight decay: 1e-06
+Validating: Loss 0.143921743739735
+
+Epoch 99/300
+Lr: [2e-05]
+Training: Loss 0.15939771895237426| Weight decay: 1e-06
+Validating: Loss 0.13819171623750168
+
+Epoch 100/300
+Lr: [2e-05]
+Training: Loss 0.15937235864236| Weight decay: 1e-06
+Validating: Loss 0.1347599517215382
+
+Epoch 101/300
+Lr: [2e-05]
+Training: Loss 0.1619085285099263| Weight decay: 1e-06
+Validating: Loss 0.13281221823258835
+
+Epoch 102/300
+Lr: [2e-05]
+Training: Loss 0.15617154586188337| Weight decay: 1e-06
+Validating: Loss 0.13090528141368518
+
+Epoch 103/300
+Lr: [2e-05]
+Training: Loss 0.16221231285561907| Weight decay: 1e-06
+Validating: Loss 0.13485421917655252
+
+Epoch 104/300
+Lr: [2e-05]
+Training: Loss 0.15315477732331195| Weight decay: 1e-06
+Validating: Loss 0.1312862146984447
+
+Epoch 105/300
+Lr: [2e-05]
+Training: Loss 0.1596344919439326| Weight decay: 1e-06
+Validating: Loss 0.128131395036524
+
+Epoch 106/300
+Lr: [2e-05]
+Training: Loss 0.15940291989356914| Weight decay: 1e-06
+Validating: Loss 0.13536924123764038
+
+Epoch 107/300
+Lr: [2e-05]
+Training: Loss 0.16090390141657057| Weight decay: 1e-06
+Validating: Loss 0.13229431347413498
+
+Epoch 108/300
+Lr: [2e-05]
+Training: Loss 0.1554711033847738| Weight decay: 1e-06
+Validating: Loss 0.13080903074958108
+
+Epoch 109/300
+Lr: [2e-05]
+Training: Loss 0.15226997958218796| Weight decay: 1e-06
+Validating: Loss 0.13504311713305386
+
+Epoch 110/300
+Lr: [2e-05]
+Training: Loss 0.15003174923835916| Weight decay: 1e-06
+Validating: Loss 0.13389507748863913
+
+Epoch 111/300
+Lr: [2e-05]
+Training: Loss 0.15179841616686354| Weight decay: 1e-06
+Validating: Loss 0.13156079162250867
+
+Epoch 112/300
+Lr: [2e-05]
+Training: Loss 0.1574124121206238| Weight decay: 1e-06
+Validating: Loss 0.1332003582607616
+
+Epoch 113/300
+Lr: [2e-05]
+Training: Loss 0.15088417111559116| Weight decay: 1e-06
+Validating: Loss 0.12733306668021463
+
+Epoch 114/300
+Lr: [2e-05]
+Training: Loss 0.1487792523458917| Weight decay: 1e-06
+Validating: Loss 0.12478491934863004
+
+Epoch 115/300
+Lr: [2e-05]
+Training: Loss 0.15950871282752524| Weight decay: 1e-06
+Validating: Loss 0.1268926371227611
+
+Epoch 116/300
+Lr: [2e-05]
+Training: Loss 0.1534818477056762| Weight decay: 1e-06
+Validating: Loss 0.12995409965515137
+
+Epoch 117/300
+Lr: [2e-05]
+Training: Loss 0.14385140849713315| Weight decay: 1e-06
+Validating: Loss 0.12930585579438644
+
+Epoch 118/300
+Lr: [2e-05]
+Training: Loss 0.1513684681279862| Weight decay: 1e-06
+Validating: Loss 0.1345986073667353
+
+Epoch 119/300
+Lr: [2e-05]
+Training: Loss 0.1499116006208227| Weight decay: 1e-06
+Validating: Loss 0.12981323220513083
+
+Epoch 120/300
+Lr: [2e-05]
+Training: Loss 0.15387801013569882| Weight decay: 1e-06
+Validating: Loss 0.1257046569477428
+
+Epoch 121/300
+Lr: [2e-05]
+Training: Loss 0.15003413615867178| Weight decay: 1e-06
+Validating: Loss 0.12829020890322598
+
+Epoch 122/300
+Lr: [2e-05]
+Training: Loss 0.15332077015587625| Weight decay: 1e-06
+Validating: Loss 0.12614648992365057
+
+Epoch 123/300
+Lr: [2e-05]
+Training: Loss 0.15780237083263854| Weight decay: 1e-06
+Validating: Loss 0.13284214518286966
+
+Epoch 124/300
+Lr: [2e-05]
+Training: Loss 0.1479911851756116| Weight decay: 1e-06
+Validating: Loss 0.12752661379900845
+
+Epoch 125/300
+Lr: [2e-05]
+Training: Loss 0.15950021647075388| Weight decay: 1e-06
+Validating: Loss 0.1290127093141729
+
+Epoch 126/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.15551169216632843| Weight decay: 1e-06
+Validating: Loss 0.12178313732147217
+
+Epoch 127/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.15324070633567394| Weight decay: 1e-06
+Validating: Loss 0.12177425622940063
+
+Epoch 128/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14639556582303756| Weight decay: 1e-06
+Validating: Loss 0.1245504238388755
+
+Epoch 129/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.15009540905977817| Weight decay: 1e-06
+Validating: Loss 0.12207452275536278
+
+Epoch 130/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1542125484172968| Weight decay: 1e-06
+Validating: Loss 0.12318496812473644
+
+Epoch 131/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14383145183958906| Weight decay: 1e-06
+Validating: Loss 0.12357522140849721
+
+Epoch 132/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14735802782184265| Weight decay: 1e-06
+Validating: Loss 0.12288300557570024
+
+Epoch 133/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14950054146824998| Weight decay: 1e-06
+Validating: Loss 0.1250324628569863
+
+Epoch 134/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1432763500178748| Weight decay: 1e-06
+Validating: Loss 0.1251625960523432
+
+Epoch 135/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.15384332471071405| Weight decay: 1e-06
+Validating: Loss 0.12342492558739403
+
+Epoch 136/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.15005885548097023| Weight decay: 1e-06
+Validating: Loss 0.12141040780327537
+
+Epoch 137/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.143131835861726| Weight decay: 1e-06
+Validating: Loss 0.12222940271550958
+
+Epoch 138/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1504364123052739| Weight decay: 1e-06
+Validating: Loss 0.1217253641648726
+
+Epoch 139/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14422259487687272| Weight decay: 1e-06
+Validating: Loss 0.12173188816417348
+
+Epoch 140/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1464906515989532| Weight decay: 1e-06
+Validating: Loss 0.12281472032720392
+
+Epoch 141/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14715502918400664| Weight decay: 1e-06
+Validating: Loss 0.12361311370676215
+
+Epoch 142/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.15290949751246483| Weight decay: 1e-06
+Validating: Loss 0.12294225801121104
+
+Epoch 143/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1481522354990878| Weight decay: 1e-06
+Validating: Loss 0.12226530096747658
+
+Epoch 144/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1424327385710909| Weight decay: 1e-06
+Validating: Loss 0.1248646541075273
+
+Epoch 145/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14824221996550865| Weight decay: 1e-06
+Validating: Loss 0.11948580633510243
+
+Epoch 146/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14355878095994604| Weight decay: 1e-06
+Validating: Loss 0.12396297671578148
+
+Epoch 147/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14856966331284097| Weight decay: 1e-06
+Validating: Loss 0.12295436317270453
+
+Epoch 148/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14263745841193706| Weight decay: 1e-06
+Validating: Loss 0.12239844690669667
+
+Epoch 149/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14297698224161534| Weight decay: 1e-06
+Validating: Loss 0.12258363311940973
+
+Epoch 150/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.15105535569501685| Weight decay: 1e-06
+Validating: Loss 0.12265265529805963
+
+Epoch 151/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1436681743869756| Weight decay: 1e-06
+Validating: Loss 0.12172008644450795
+
+Epoch 152/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1460664986454426| Weight decay: 1e-06
+Validating: Loss 0.12466604601253163
+
+Epoch 153/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14366825551111648| Weight decay: 1e-06
+Validating: Loss 0.12174164707010443
+
+Epoch 154/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14733941092136058| Weight decay: 1e-06
+Validating: Loss 0.11936031146482988
+
+Epoch 155/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14521325189382472| Weight decay: 1e-06
+Validating: Loss 0.12020427530462091
+
+Epoch 156/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1371437464939787| Weight decay: 1e-06
+Validating: Loss 0.12163459170948375
+
+Epoch 157/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1472217219069283| Weight decay: 1e-06
+Validating: Loss 0.11915554241700606
+
+Epoch 158/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14622703923823985| Weight decay: 1e-06
+Validating: Loss 0.12240779399871826
+
+Epoch 159/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14117854401627752| Weight decay: 1e-06
+Validating: Loss 0.12222513827410611
+
+Epoch 160/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14304251849968383| Weight decay: 1e-06
+Validating: Loss 0.12356615608388727
+
+Epoch 161/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14380942277134734| Weight decay: 1e-06
+Validating: Loss 0.117167667909102
+
+Epoch 162/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14467889114104687| Weight decay: 1e-06
+Validating: Loss 0.11891350962898949
+
+Epoch 163/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14750382351748487| Weight decay: 1e-06
+Validating: Loss 0.11781960183923895
+
+Epoch 164/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.13888894084920275| Weight decay: 1e-06
+Validating: Loss 0.11760576204820113
+
+Epoch 165/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.13655197144822873| Weight decay: 1e-06
+Validating: Loss 0.11859237605875189
+
+Epoch 166/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.143282580248853| Weight decay: 1e-06
+Validating: Loss 0.11916028911417181
+
+Epoch 167/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1403365027397237| Weight decay: 1e-06
+Validating: Loss 0.1199707334691828
+
+Epoch 168/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.13965845373558236| Weight decay: 1e-06
+Validating: Loss 0.12284447930075905
+
+Epoch 169/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.14542822325800328| Weight decay: 1e-06
+Validating: Loss 0.12102541598406705
+
+Epoch 170/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1431677725086821| Weight decay: 1e-06
+Validating: Loss 0.12254526940259067
+
+Epoch 171/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1462702285894688| Weight decay: 1e-06
+Validating: Loss 0.12018641558560458
+
+Epoch 172/300
+Lr: [4.000000000000001e-06]
+Training: Loss 0.1436176873109442| Weight decay: 1e-06
+Validating: Loss 0.12198632955551147
+
+Epoch 173/300
+Lr: [1e-06]
+Training: Loss 0.1449459658024159| Weight decay: 1e-06
+Validating: Loss 0.1233741044998169
+
+Epoch 174/300
+Lr: [1e-06]
+Training: Loss 0.1385311298864953| Weight decay: 1e-06
+Validating: Loss 0.12274214354428378
+
+Epoch 175/300
+Lr: [1e-06]
+Training: Loss 0.13725826532599775| Weight decay: 1e-06
+Validating: Loss 0.12258494984019887
+
+Epoch 176/300
+Lr: [1e-06]
+Training: Loss 0.14028162176304676| Weight decay: 1e-06
+Validating: Loss 0.12132373723116788
+
+Epoch 177/300
+Lr: [1e-06]
+Training: Loss 0.14346446263346266| Weight decay: 1e-06
+Validating: Loss 0.12282064286145297
+
+Epoch 178/300
+Lr: [1e-06]
+Training: Loss 0.13568372073325705| Weight decay: 1e-06
+Validating: Loss 0.12186833403327248
+
+Epoch 179/300
+Lr: [1e-06]
+Training: Loss 0.13965500526605767| Weight decay: 1e-06
+Validating: Loss 0.12058660658923062
+
+Epoch 180/300
+Lr: [1e-06]
+Training: Loss 0.14033822287270364| Weight decay: 1e-06
+Validating: Loss 0.12149736556139859
+
+Epoch 181/300
+Lr: [1e-06]
+Training: Loss 0.14604876963223548| Weight decay: 1e-06
+Validating: Loss 0.1229452057318254
+
+Epoch 182/300
+Lr: [1e-06]
+Training: Loss 0.13700748900783824| Weight decay: 1e-06
+Validating: Loss 0.1223067966374484
+
+Epoch 183/300
+Lr: [1e-06]
+Training: Loss 0.14227522802638246| Weight decay: 1e-06
+Validating: Loss 0.12341149286790327
+
+Epoch 184/300
+Lr: [1e-06]
+Training: Loss 0.14179377784912892| Weight decay: 1e-06
+Validating: Loss 0.12087396058169278
+
+Epoch 185/300
+Lr: [1e-06]
+Training: Loss 0.13761994310040424| Weight decay: 1e-06
+Validating: Loss 0.12081542882052335
+
+Epoch 186/300
+Lr: [1e-06]
+Training: Loss 0.13722960567696296| Weight decay: 1e-06
+Validating: Loss 0.12019382281736894
+
+Epoch 187/300
+Lr: [1e-06]
+Training: Loss 0.14062122873803404| Weight decay: 1e-06
+Validating: Loss 0.12082114544781772
+
+Epoch 188/300
+Lr: [1e-06]
+Training: Loss 0.139232970734543| Weight decay: 1e-06
+Validating: Loss 0.11780756711959839
+
+Epoch 189/300
+Lr: [1e-06]
+Training: Loss 0.1361513598326673| Weight decay: 1e-06
+Validating: Loss 0.12039514563300392
+
+Epoch 190/300
+Lr: [1e-06]
+Training: Loss 0.1378239191910054| Weight decay: 1e-06
+Validating: Loss 0.1220612959428267
+
+Epoch 191/300
+Lr: [1e-06]
+Training: Loss 0.1382647783673824| Weight decay: 1e-06
+Validating: Loss 0.11891423572193492
+
+Epoch 192/300
+Lr: [1e-06]
+Training: Loss 0.1425254264886075| Weight decay: 1e-06
+Validating: Loss 0.1210827881639654
+
+Epoch 193/300
+Lr: [1e-06]
+Training: Loss 0.14010889867835857| Weight decay: 1e-06
+Validating: Loss 0.12061337991194292
+
+Epoch 194/300
+Lr: [1e-06]
+Training: Loss 0.1475257545392564| Weight decay: 1e-06
+Validating: Loss 0.12006963924928145
+
+Epoch 195/300
+Lr: [1e-06]
+Training: Loss 0.13953149711039473| Weight decay: 1e-06
+Validating: Loss 0.12225688587535512
+
+Epoch 196/300
+Lr: [1e-06]
+Training: Loss 0.14015997974003883| Weight decay: 1e-06
+Validating: Loss 0.11998446421189742
+
+Epoch 197/300
+Lr: [1e-06]
+Training: Loss 0.1434851922094822| Weight decay: 1e-06
+Validating: Loss 0.11922263557260687
+
+Epoch 198/300
+Lr: [1e-06]
+Training: Loss 0.14281129191054942| Weight decay: 1e-06
+Validating: Loss 0.12260742620988326
+
+Epoch 199/300
+Lr: [1e-06]
+Training: Loss 0.13352849869493474| Weight decay: 1e-06
+Validating: Loss 0.12038719112222845
+
+Epoch 200/300
+Lr: [1e-06]
+Training: Loss 0.13303599260905954| Weight decay: 1e-06
+Validating: Loss 0.12116765975952148
+
+Epoch 201/300
+Lr: [1e-06]
+Training: Loss 0.1388285961398419| Weight decay: 1e-06
+Validating: Loss 0.12089749357917091
+
+Epoch 202/300
+Lr: [1e-06]
+Training: Loss 0.1402302936036536| Weight decay: 1e-06
+Validating: Loss 0.11968541687185114
+
+Epoch 203/300
+Lr: [1e-06]
+Training: Loss 0.14162174786658996| Weight decay: 1e-06
+Validating: Loss 0.12189455465836958
+
+Epoch 204/300
+Lr: [1e-06]
+Training: Loss 0.14488252688278544| Weight decay: 1e-06
+Validating: Loss 0.1194902550090443
+
+Epoch 205/300
+Lr: [1e-06]
+Training: Loss 0.14190280076829678| Weight decay: 1e-06
+Validating: Loss 0.11802260984073985
+
+Epoch 206/300
+Lr: [1e-06]
+Training: Loss 0.13702911138534546| Weight decay: 1e-06
+Validating: Loss 0.11963514306328514
+
+Epoch 207/300
+Lr: [1e-06]
+Training: Loss 0.1355808179112191| Weight decay: 1e-06
+Validating: Loss 0.1186005798253146
+
+Epoch 208/300
+Lr: [1e-06]
+Training: Loss 0.13601958823013813| Weight decay: 1e-06
+Validating: Loss 0.12184034152464433
+
+Epoch 209/300
+Lr: [1e-06]
+Training: Loss 0.14076945811827132| Weight decay: 1e-06
+Validating: Loss 0.1209086613221602
+
+Epoch 210/300
+Lr: [1e-06]
+Training: Loss 0.1354063751294892| Weight decay: 1e-06
+Validating: Loss 0.12020075863057916
+
+Epoch 211/300
+Lr: [1e-06]
+Training: Loss 0.1448700467639781| Weight decay: 1e-06
+Validating: Loss 0.12000600858168169

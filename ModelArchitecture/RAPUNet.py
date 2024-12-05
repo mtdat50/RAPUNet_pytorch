@@ -4,12 +4,14 @@ from torch import nn
 import torch.nn.functional as F
 from .RAPU_blocks import ResnetBlock, RAPUBlock, Convf_bn_act, SBA, same_padding
 
-kernel_initializer = 'he_uniform'
-interpolation = "nearest"
 
 class RAPUNet(nn.Module):
     def __init__(self, in_channels, out_classes, starting_kernels = 16):
+        """
+        If deep_supervision == True, return outputs of sizes (size), (size / 4), (size / 8)
+        """
         super().__init__()
+
         self.backbone = timm.create_model('caformer_s18.sail_in22k_ft_in1k_384', pretraned=True, features_only=True)
 
 
@@ -46,18 +48,28 @@ class RAPUNet(nn.Module):
         kernels = 32
 
             #High-level feature
-        self.h_conv_block = Convf_bn_act(starting_kernels * 40, kernels, 1) # concat encoder output 2 3 4 = 8 + 16 + 16 = 40
-        self.h_conv = nn.Conv2d(kernels, 1, 1, bias=False)
+        # self.h_conv_block = Convf_bn_act(starting_kernels * 40, kernels, 1) # concat encoder output 2 3 4 = 8 + 16 + 16 = 40
+        # self.h_conv = nn.Conv2d(kernels, 1, 1, bias=False)
 
-            #Low-level feature
-        self.L_conv_block = Convf_bn_act(starting_kernels * 4, kernels, 3)
-        self.H_conv_block = Convf_bn_act(starting_kernels * 32, kernels, 1)
-        self.SBA = SBA(kernels, kernels)
+        #     #Low-level feature
+        # self.L_conv_block = Convf_bn_act(starting_kernels * 4, kernels, 3)
+        # self.H_conv_block = Convf_bn_act(starting_kernels * 32, kernels, 1)
+        # self.SBA = SBA(kernels, kernels)
 
-        self.final_conv = nn.Conv2d(1, out_classes, 1)
+        # self.final_conv = nn.Conv2d(1, out_classes, 1)
+
+        self.convf_bn_act_stage3_4 = Convf_bn_act(starting_kernels * 32, kernels, 1)
+        self.convf_bn_act_stage2 = Convf_bn_act(starting_kernels * 8, kernels, 3)
+        self.SBA1 = SBA(kernels, kernels, return_feature=True) # 32, 48, 48
+
+        self.convf_bn_act_stage1 = Convf_bn_act(starting_kernels * 4, kernels, 3)
+        self.SBA2 = SBA(kernels, kernels, return_feature=True) # 32, 96, 96
+
+        self.convf_bn_act_stage0 = Convf_bn_act(starting_kernels * 2, kernels, 3)
+        self.SBA3 = SBA(kernels, kernels) # 1, 384, 384
 
     
-    def forward(self, x):
+    def forward(self, x, deep_supervision = False):
         backbone_stages = self.backbone(x)
 
         x_tmp = same_padding(x, ksize=3, stride=2)
@@ -102,40 +114,30 @@ class RAPUNet(nn.Module):
         #Aggregation
         high_level_feature = torch.cat(
             [
-                F.interpolate(encoder_output3, scale_factor=2),
-                F.interpolate(encoder_output4, scale_factor=4)
-            ],
-            dim=1 # Concatenate along channel dimension
-        )
-        high_level_feature = torch.cat(
-            [
-                high_level_feature,
-                encoder_output2
-            ],
-            dim=1
-        )
-        high_level_feature = self.h_conv_block(high_level_feature)
-        high_level_feature = self.h_conv(high_level_feature) #1, 48, 48
-
-
-        L_input = self.L_conv_block(encoder_output1) #32, 96, 96
-        H_input = torch.cat(
-            [
                 encoder_output3,
                 F.interpolate(encoder_output4, scale_factor=2)
             ],
-            dim=1
-        )
-        H_input = self.H_conv_block(H_input)
-        H_input = F.interpolate(H_input, scale_factor=2) #32, 48, 48
-        low_level_feature = self.SBA(L_input, H_input) #1, 96, 96
+            dim=1 # Concatenate along channel dimension
+        ) # starting_kernels * 32, 24, 24
 
 
-        high_level_feature = F.interpolate(high_level_feature, scale_factor=8, mode="bilinear")
-        low_level_feature = F.interpolate(low_level_feature, scale_factor=4, mode="nearest")
+        high_level_feature = self.convf_bn_act_stage3_4(high_level_feature) # 32, 24, 24
+        stage_2_feature = self.convf_bn_act_stage2(encoder_output2) # 32, 48, 48
+        output2, combined_feature = self.SBA1(stage_2_feature, high_level_feature) # 32, 48, 48
 
-        output = low_level_feature + high_level_feature
-        output = self.final_conv(output)
+        stage_1_feature = self.convf_bn_act_stage1(encoder_output1) # 32, 96, 96
+        output1, combined_feature = self.SBA2(stage_1_feature, combined_feature) # 32, 96, 96
+        combined_feature = F.interpolate(combined_feature, scale_factor=2, mode="bilinear") # 32, 192, 192
+
+        stage_0_feature = self.convf_bn_act_stage0(t1) # 32, 192, 192
+        stage_0_feature = F.interpolate(stage_0_feature, scale_factor=2, mode="nearest") # 32, 384, 384
+
+        output = self.SBA3(stage_0_feature, combined_feature) # 1, 384, 384
+
         output = torch.sigmoid(output)
+        output1 = torch.sigmoid(output1)
+        output2 = torch.sigmoid(output2)
 
+        if deep_supervision:
+            return output, output1, output2
         return output
