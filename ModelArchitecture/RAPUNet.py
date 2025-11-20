@@ -12,7 +12,7 @@ class RAPUNet(nn.Module):
         """
         super().__init__()
 
-        self.backbone = timm.create_model('caformer_s18.sail_in22k_ft_in1k_384', pretraned=True, features_only=True)
+        self.backbone = timm.create_model('caformer_s18.sail_in22k_ft_in1k_384', pretrained=True, features_only=True)
 
 
         self.p1_conv2d = nn.Conv2d(in_channels, starting_kernels * 2, 3, stride=2)
